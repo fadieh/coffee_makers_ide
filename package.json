@@ -1,0 +1,28 @@
+{
+  "name": "makers-ide-coffeescript",
+  "version": "1.0.0",
+  "description": "A multi-user code editor with WebSockets in coffeescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Schlap/makers-ide-coffeescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Schlap/makers-ide-coffeescript/issues"
+  },
+  "homepage": "https://github.com/Schlap/makers-ide-coffeescript",
+  "dependencies": {
+    "express": "^4.10.1",
+    "socket.io": "^1.2.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.0.1",
+    "zombie": "^2.1.1"
+  }
+}
